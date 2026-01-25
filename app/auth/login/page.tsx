@@ -66,7 +66,7 @@ export default function LoginPage() {
         <p className="text-center text-gray-400 mt-4 text-sm">
           Don't have an account?
           <button
-            onClick={() => setEmail('demo@example.com') || setPassword('demo')}
+            onClick={() => { setEmail('demo@example.com'); setPassword('demo'); }}
             className="text-cyan-400 hover:text-cyan-300 ml-2"
           >
             Demo Login
